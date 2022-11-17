@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">TestAndroid</string>
     <string name="hello_cddaun">Hello Cddaun!</string>
+    <string name="Rubrica_contatti">Rubrica</string>
+    <string name="Aggiungi_Contatto">Aggiungi Contatto</string>
+    <string name="Modifica_Contatti">Modifica Contatto</string>
 </resources>

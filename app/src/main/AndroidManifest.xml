@@ -13,6 +13,29 @@
         android:theme="@style/Theme.TestAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".ModificaContatti" android:label="@string/Modifica_Contatti"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AggiungiContatto"
+            android:exported="false"
+            android:label="@string/Aggiungi_Contatto">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".RubricaContatti"
+            android:exported="false"
+            android:label="@string/Rubrica_contatti">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
