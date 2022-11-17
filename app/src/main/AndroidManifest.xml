@@ -13,8 +13,16 @@
         android:theme="@style/Theme.TestAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".ModificaContatti" android:label="@string/Modifica_Contatti"
+            android:name=".Stefano"
             android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ModificaContatti"
+            android:exported="false"
+            android:label="@string/Modifica_Contatti">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
