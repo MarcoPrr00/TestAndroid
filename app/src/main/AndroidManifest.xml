@@ -13,7 +13,11 @@
         android:theme="@style/Theme.TestAndroid"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".antonella"
+=======
+            android:name=".Marco"
+>>>>>>> f9975dedbcb4e8a51df47b7349ce2b4a34034262
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
