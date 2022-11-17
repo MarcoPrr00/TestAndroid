@@ -13,13 +13,23 @@
         android:theme="@style/Theme.TestAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".Stefano"
-            android:exported="false">
+            android:name=".Stefano">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
+        <activity
+            android:name=".antonella">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Marco">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".ModificaContatti"
             android:exported="false"
