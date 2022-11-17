@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".Marco">
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="163dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="111dp"
+        android:text="@string/premi_qui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
